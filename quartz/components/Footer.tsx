@@ -14,7 +14,7 @@ export default ((opts?: Options) => {
       <footer>
         <hr />
         <p>
-          Created with <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a>, © {year}
+        本网站由<a href="https://github.com/YQisme">杨琦</a>建立且负责维护, © {year}
         </p>
         <ul>
           {Object.entries(links).map(([text, link]) => (
